@@ -1,0 +1,27 @@
+/**
+ * Concrete class for homework assignment 1 in Series 1 of 2IP15,
+ * where you provide a functional decomposition of {@code isSecure()}.
+ * <p>
+ * Write your code in this file between the lines marked by
+ * //# BEGIN TODO ... and //# END TODO (do NOT remove these markers).
+ * <p>
+<!--//# BEGIN TODO: Name, id, and date-->
+<p><font color="red"><b>Replace this line</b></font></p>
+<!--//# END TODO-->
+ */
+// -----8<----- cut line -----8<-----
+public class KeyCollectionDecomposed extends AbstractKeyCollection {
+
+    @Override
+    public  boolean isSecure(int[][][] keys)
+    {
+//# BEGIN TODO: Functional decomposition; the top-level method
+// Replace this line
+//# END TODO
+    }
+    
+//# BEGIN TODO: Functional decomposition; auxiliary method(s)
+// Replace this line
+//# END TODO
+        
+}

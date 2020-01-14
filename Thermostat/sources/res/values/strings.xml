@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="temp">32.5C</string>
+    <string name="action_settings">Settings</string>
+    <string name="button1">Set Day/Night temp</string>
+    <string name="button2">Week overlay</string>
+    <string name="button4">Set day/time</string>
+    <string name="app_name">Thermostat</string>
+
+</resources>

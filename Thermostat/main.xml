@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Main_current_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/Main_current_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:gravity="right"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        style="@style/TextViewStyle"
+        android:text="The current temperature is"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/Main_current_temperature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=""
+        style="@style/TextViewStyle"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/MainActivityNextSwitch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=""
+        style="@style/TextViewStyle"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Main_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="-"
+            style="@style/RoundButton"
+            android:textSize="25sp" />
+
+        <SeekBar
+            android:id="@+id/Main_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="17"
+            android:max="250"
+            android:progress="200" />
+
+        <Button
+            android:id="@+id/Main_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="+"
+            style="@style/RoundButton"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Temperature_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        style="@style/RoundButton"
+        android:text="SET DAY &amp; NIGHT TEMPERATURE" />
+
+    <Button
+        android:id="@+id/Main_week_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        style="@style/RoundButton"
+        android:text="WEEK OVERVIEW" />
+
+    <Button
+        android:id="@+id/Main_vacation_mode_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        style="@style/RoundButton"
+        android:text="ENABLE VACATION MODE" />
+
+    <Button
+        android:id="@+id/Main_settings_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        style="@style/RoundButton"
+        android:text="SET DAY &amp; TIME" />
+
+</LinearLayout>

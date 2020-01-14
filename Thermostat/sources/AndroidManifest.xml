@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.termostat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/thermostat"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main_thermo_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Temperature_activity"
+            android:theme="@style/AppBaseTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Week_activity"
+            android:theme="@style/AppBaseTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings_day_activity"
+            android:theme="@style/AppBaseTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Day_activity"
+            android:theme="@style/AppBaseTheme"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Settings_activity"
+            android:theme="@style/AppBaseTheme"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
